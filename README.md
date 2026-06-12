@@ -36,13 +36,17 @@ Make sure you have Python installed, then run:
 pip install -r requirements.txt
 ```
 
-**3. Set up Environment Variables:**
+**3. Set up Environment Variables and data folder:**
 
 Create a .env file in the root directory and add your Groq API key:
 
 ```bash
 GROQ_API_KEY=your_api_key_here
 ```
+
+Create a folder named data/ in the root directory.
+
+Inside the data/ folder, place your raw text files (.txt) containing the knowledge base (e.g., articles about Harry, Ron, or Hermione copied from the Fandom Wiki).
 
 **4. Initialize the Vector Database:**
 Before using the Library, you must process the raw text files from the data/ folder into vectors:
