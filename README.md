@@ -49,6 +49,7 @@ Create a folder named data/ in the root directory.
 Inside the data/ folder, place your raw text files (.txt) containing the knowledge base (e.g., articles about Harry, Ron, or Hermione copied from the Fandom Wiki).
 
 **4. Initialize the Vector Database:**
+
 Before using the Library, you must process the raw text files from the data/ folder into vectors:
 
 ```bash
@@ -58,6 +59,7 @@ python knowledge_base.py
 This will generate a local chroma_db/ folder.
 
 **5. Run the Application:**
+
 Launch the Streamlit server:
 
 ```bash
